@@ -1,0 +1,50 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Guest</title>
+    <link type="text/css" href="/public/Stylesheet.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="headerDiv">
+        <div class="homeDiv">
+            <a href="http://flip3.engr.oregonstate.edu:6072/">Home</a>
+        </div>
+        <div class="aboutDiv">
+            <a href="http://flip3.engr.oregonstate.edu:6072/About">About</a>
+        </div>
+        <div class="casinoDiv">
+            <a href="http://flip3.engr.oregonstate.edu:6072/Casino">Casino</a>
+        </div>
+    </div>
+
+    <div class="guestbook">
+        <form>
+            <fieldset>
+                <legend>Thanks for your info! I'll get back to you ASAP.</legend>
+                    <label for="userName">Name: </label>
+                    <br />
+                    <input type="text" name="userName" id="userName"/>
+                    <br />
+                    <label for="userContact">Contact: </label>
+                    <br />
+                    <input type="text" name="userContact" id="userContact"/>
+                    <br />
+                    <label for="userContent">Content: </label>
+                    <br />
+                    <input type="text" name="userContent" id="userContent"/>
+                    <br />
+                    <input type="submit" id="httpBin"/>
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="returnData">
+        <h2>Thank you for signing the guestbook! Here is what you entered.</h2>
+        <br />
+        <p id="returnData"></p>
+    </div>
+
+<script src="/public/Script.js"></script>
+</body>
+</html>

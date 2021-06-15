@@ -1,0 +1,164 @@
+body {
+    background-color: #585858;
+}
+
+a {
+    color: cyan;
+    font-family: "Monaco", "Courier New", monospace;
+    text-decoration: none;
+}
+
+h1 {
+    color: #f8f9fa;
+    font-family: "Monaco", "Courier New", monospace;
+}
+
+h2 {
+    color: #f8f9fa;
+    font-family: "Monaco", "Courier New", monospace;
+}
+
+h3 {
+    color: #f8f9fa;
+    font-family: "Monaco", "Courier New", monospace;
+}
+
+p {
+    color: #f8f9fa;
+    font-family: "Monaco", "Courier New", monospace;
+}
+
+legend {
+    color: #f8f9fa;
+    text-align: center;
+    font-family: "Monaco", "Courier New", monospace;
+}
+
+label {
+    color: #f8f9fa;
+    font-family: "Monaco", "Courier New", monospace;
+}
+
+textarea {
+    font-family: "Monaco", "Courier New", monospace;
+    font-size: 75%;
+}
+
+.headerDiv {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+}
+
+.homeDiv {
+    margin: auto;
+    }
+
+.aboutDiv {
+    margin: auto;
+    }
+
+.guestDiv {
+    margin: auto;
+    }
+
+.casinoDiv {
+    margin: auto;
+    }
+
+.homeContent {
+    float: left;
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+}
+
+.homeHeader {
+    margin: auto
+}
+
+.homeText {
+    padding: 20px;
+}
+
+.carousel {
+    float: right;
+    width: 40%;
+    padding: 50px
+}
+
+ .carousel-indicator {
+   position: relative;
+ }
+
+.carouselCite {
+    text-align: center;
+}
+
+.guestbook {
+    padding: 100px
+}
+
+input[type=text] {
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 100%;
+    font-family: "Monaco", "Courier New", monospace;
+}
+
+fieldset {
+    width: 800px;
+    margin: auto;
+}
+
+form {
+    margin: auto;
+}
+
+.returnData {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-family: "Monaco", "Courier New", monospace;
+}
+
+.linkList {
+    padding: 100px;
+}
+
+ul {
+    padding: 5px;
+    font-size: 200%;
+}
+
+textarea {
+    width: 850px;
+    height: 100px;
+    border: 1px solid;
+}
+
+.blackjack {
+    margin: auto;
+    width: 50%;
+    height: 400px;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid blue;
+}
+
+.bjPlayer {
+    float: left;
+}
+
+.bjHouse {
+    float: right;
+}
+
+.bjButtons {
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+}

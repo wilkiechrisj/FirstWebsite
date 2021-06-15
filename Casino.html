@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Casino</title>
+    <link type="text/css" href="/public/Stylesheet.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="headerDiv">
+        <div class="homeDiv">
+            <a href="http://flip3.engr.oregonstate.edu:6072/">Home</a>
+        </div>
+        <div class="aboutDiv">
+            <a href="http://flip3.engr.oregonstate.edu:6072/About">About</a>
+        </div>
+        <div class="guestDiv">
+            <a href="http://flip3.engr.oregonstate.edu:6072/Guest">Guest</a>
+        </div>
+    </div>
+
+    <div class="blackjack">
+
+        <h2>Blackjack! Dealer hits until 16.</h2>
+
+        <div class="bjPlayer">
+            <p>PLAYER HAND: </p>
+            <p id="playerHand"></p>
+            <br />
+            <p>PLAYER SCORE: </p>
+            <p id="playerPoints"></p>
+        </div>
+
+        <div class="bjHouse">
+            <p>HOUSE HAND: </p>
+            <p id="houseHand"></p>
+            <br />
+            <p>HOUSE SCORE: </p>
+            <p id="housePoints"></p>
+        </div>
+
+        <div class="bjStatus">
+            <h3 id="status"></h3>
+        </div>
+
+    </div>
+    <br />
+    <div class="bjButtons">
+        <input type="button" id="newGame" class="newGame" value="New Game" onclick="newGame">
+        <input type="button" id="hitMe" class="hitMe" value="Hit" onclick="hitMe">
+        <input type="button" id="stay" class="stay" value="Stay" onclick="dealerTurn">
+    </div>
+
+    <script src="public/casino.js"></script>
+
+</body>
+</html>
